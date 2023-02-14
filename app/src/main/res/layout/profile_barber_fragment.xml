@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.ProfileFragment"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewBarbarAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Barber Account"
+        android:textColor="#AE0000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageViewProfilePictureBarber"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/barber_default_profile"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewDateTitleItemBarber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:text="Name:"
+            android:textColor="@color/barber_color"
+            android:fontFamily="sans-serif-black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textViewFullNameProfileBarber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:gravity="right"
+            android:text="your_name"
+            android:textColor="#2C2C2C"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewTimeTitleItemBarber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:text="Email:"
+            android:textColor="@color/barber_color"
+            android:fontFamily="sans-serif-black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textViewEmailBarber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:gravity="right"
+            android:text="your_email"
+            android:textColor="#2C2C2C"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewPhoneTitleItemBarber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:text="Phone:"
+            android:textColor="@color/barber_color"
+            android:fontFamily="sans-serif-black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textViewBarberPhoneItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:gravity="right"
+            android:text="your_phone"
+            android:textColor="#2C2C2C"
+            android:textSize="15sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewShopNameTitleItemBarber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:text="Shop Name:"
+            android:textColor="@color/barber_color"
+            android:fontFamily="sans-serif-black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textViewShopNameProfileBarber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:gravity="right"
+            android:text="your_shop_name"
+            android:textColor="#2C2C2C"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewLocationTitleItemBarber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:text="Location:"
+            android:textColor="@color/barber_color"
+            android:fontFamily="sans-serif-black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textViewLocationBarber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:gravity="right"
+            android:text="your_location"
+            android:textColor="#2C2C2C"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewPriceTitleItemBarber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:text="Price:"
+            android:textColor="@color/barber_color"
+            android:fontFamily="sans-serif-black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textViewBarberPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:gravity="right"
+            android:text="your_price"
+            android:textColor="#2C2C2C"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textViewAppointmentsTitleProfileBarber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="4dp"
+        android:text="My work appointments"
+        android:textColor="@color/barber_color"
+        android:fontFamily="sans-serif-black"
+        android:textSize="20sp"/>
+
+    <ListView
+        android:id="@+id/listViewBarberAppointments"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

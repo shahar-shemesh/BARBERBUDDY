@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.DayOffFragment">
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:gravity="center"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <CalendarView-->
+<!--            android:id="@+id/calendar_viewOff"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="304dp"-->
+<!--            android:selectedDateVerticalBar="@color/barber_color"-->
+<!--            android:selectedWeekBackgroundColor="#111111" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textViewDateChoosenOff"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="center"-->
+<!--            android:text="TextView"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="20dp"-->
+<!--            android:textStyle="bold" />-->
+<!--    </LinearLayout>-->
+
+</LinearLayout>

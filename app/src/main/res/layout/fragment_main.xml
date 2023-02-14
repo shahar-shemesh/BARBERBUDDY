@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.MainFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/imageViewBarberLogo"
+            android:layout_width="900px"
+            android:layout_height="400px"
+            tools:src="@drawable/primary_logo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="25dp">
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editTextLoginEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:paddingTop="25dp"
+            tools:ignore="HardcodedText,VisualLintTextFieldSize" />
+
+        <EditText
+            android:id="@+id/editTextLoginPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Password"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:paddingTop="25dp"
+            tools:ignore="HardcodedText,VisualLintTextFieldSize" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="25dp">
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="LoginFunc"
+            android:text="Login"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/barber_buddy"
+            android:fontFamily="sans-serif-black"
+            tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+        <CheckBox
+            android:id="@+id/checkBoxRememberMe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/barber_color"
+            android:checked="true"
+            android:text="Remember me" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonLoginRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="RegisterFunc"
+                android:text="Register"
+                tools:ignore="HardcodedText,VisualLintButtonSize"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/barber_buddy"/>
+
+            <Switch
+                android:id="@+id/switchBarber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="I'am Barber"
+                android:thumbTint="#000000"
+                android:trackTint="#000000" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonContinueAsGuest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radio_button"
+            android:backgroundTint="#A1A1A1"
+            android:fontFamily="sans-serif"
+            android:text="Continue as guest"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+</LinearLayout>

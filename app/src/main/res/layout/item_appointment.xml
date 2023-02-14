@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="40px">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom|left"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewNameUserOrBarber"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5px"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:text="Name"
+                android:textColor="@color/barber_color"
+                android:fontFamily="sans-serif-black"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/textViewBarberShopLocation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5px"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:text="barberLoc"
+                android:textColor="@color/barber_color"
+                android:fontFamily="sans-serif"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textViewContactPhone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5px"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:text="contactPhone"
+                android:textColor="@color/barber_color"
+                android:fontFamily="sans-serif-black"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="bottom|right"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewDate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5px"
+                android:layout_weight="1"
+                android:gravity="center|right"
+                android:text="app_date"
+                android:textColor="@color/barber_color"
+                android:fontFamily="sans-serif-black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewTime"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5px"
+                android:layout_weight="1"
+                android:gravity="center|right"
+                android:text="time"
+                android:textColor="@color/barber_color"
+                android:fontFamily="sans-serif-black"
+                android:textSize="15sp" />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/barber_buddy"
+        android:fontFamily="sans-serif-medium"
+        android:text="Cancel" />
+
+</LinearLayout>

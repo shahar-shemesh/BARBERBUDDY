@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BarberDEMO2" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#FF111111</item>
+        <item name="colorPrimaryVariant">#FF111111</item>
+        <item name="colorOnPrimary">#FF111111</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#FF111111</item>
+        <item name="colorSecondaryVariant">#FF111111</item>
+        <item name="colorOnSecondary">#FF111111</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">#FF111111</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

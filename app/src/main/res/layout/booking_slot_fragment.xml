@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.bookingSlotFragment">
+
+    <TextView
+        android:id="@+id/textViewShopTitle"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/barber_color"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <CalendarView
+        android:id="@+id/calendar_view"
+        android:layout_width="match_parent"
+        android:layout_height="304dp"
+        android:selectedWeekBackgroundColor="#111111"
+        android:selectedDateVerticalBar="@color/barber_color"/>
+    <TextView
+        android:id="@+id/textViewDateChoosen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerListView"
+        android:name="com.example.barberdemo2.Fragments.ListAppointmentsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

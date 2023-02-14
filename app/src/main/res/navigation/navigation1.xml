@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation1"
+    app:startDestination="@id/mainFragment">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.barberdemo2.Fragments.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_barberRegisterFragment"
+            app:destination="@id/barberRegisterFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_userRegisterFragment"
+            app:destination="@id/userRegisterFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_dashboardFragment"
+            app:destination="@id/dashboardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/barberRegisterFragment"
+        android:name="com.example.barberdemo2.Fragments.BarberRegisterFragment"
+        android:label="fragment_barber_register"
+        tools:layout="@layout/fragment_barber_register" >
+        <action
+            android:id="@+id/action_barberRegisterFragment_to_dashboardFragment"
+            app:destination="@id/dashboardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/userRegisterFragment"
+        android:name="com.example.barberdemo2.Fragments.UserRegisterFragment"
+        android:label="fragment_user_register"
+        tools:layout="@layout/fragment_user_register" >
+        <action
+            android:id="@+id/action_userRegisterFragment_to_dashboardFragment"
+            app:destination="@id/dashboardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.barberdemo2.Fragments.DashboardFragment"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_dashboardFragment_to_barberShopFragment"
+            app:destination="@id/barberShopFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/barberShopFragment"
+        android:name="com.example.barberdemo2.Fragments.BarberShopFragment"
+        android:label="fragment_barber_shop"
+        tools:layout="@layout/fragment_barber_shop">
+        <argument
+            android:name="shopName"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="null" />
+        <argument
+            android:name="location"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="null" />
+        <argument
+            android:name="phone"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="null" />
+        <argument
+            android:name="price"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="null" />
+        <action
+            android:id="@+id/action_barberShopFragment_to_bookingSlotFragment"
+            app:destination="@id/bookingSlotFragment" />
+        <argument
+            android:name="bundle"
+            app:argType="android.os.Bundle" />
+        <action
+            android:id="@+id/action_barberShopFragment_to_fragmentForMapView"
+            app:destination="@id/fragmentForMapView" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileUserFragment"
+        android:name="com.example.barberdemo2.Fragments.ProfileFragment"
+        android:label="user_profile_fragment"
+        tools:layout="@layout/profile_user_fragment" />
+    <fragment
+        android:id="@+id/profileBarberFragment"
+        android:name="com.example.barberdemo2.Fragments.ProfileFragment"
+        android:label="barber_profile_fragment"
+        tools:layout="@layout/profile_barber_fragment" />
+    <fragment
+        android:id="@+id/bookingSlotFragment"
+        android:name="com.example.barberdemo2.Fragments.bookingSlotFragment"
+        android:label="booking_slot_fragment"
+        tools:layout="@layout/booking_slot_fragment" >
+        <argument
+            android:name="shopPhone"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_bookingSlotFragment_to_listAppointmentsFragment"
+            app:destination="@id/listAppointmentsFragment" />
+        <action
+            android:id="@+id/action_bookingSlotFragment_to_dashboardFragment"
+            app:destination="@id/dashboardFragment" />
+        <action
+            android:id="@+id/action_bookingSlotFragment_to_barberShopFragment"
+            app:destination="@id/barberShopFragment" />
+        <action
+            android:id="@+id/action_bookingSlotFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listAppointmentsFragment"
+        android:name="com.example.barberdemo2.Fragments.ListAppointmentsFragment"
+        android:label="ListAppointmentsFragment" >
+        <action
+            android:id="@+id/action_listAppointmentsFragment_to_bookingSlotFragment"
+            app:destination="@id/bookingSlotFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentForMapView"
+        android:name="com.example.barberdemo2.Fragments.GoogleMapsFragment"
+        android:label="GoogleMapsFragment">
+        <argument
+            android:name="barberLocation"
+            app:argType="string"
+            app:nullable="true" />
+        <argument
+            android:name="barberName"
+            app:argType="string"
+            app:nullable="true" />
+        <action
+            android:id="@+id/action_fragmentForMapView_to_barberShopFragment"
+            app:destination="@id/barberShopFragment" />
+    </fragment>
+
+</navigation>
