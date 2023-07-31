@@ -13,6 +13,10 @@ This app is a project developed as part of a computer science course on Android 
 
 
 
+https://github.com/shahar-shemesh/BARBERBUDDY/assets/62644579/41e72c0f-ef94-4c71-b883-6260703219db
+
+
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
