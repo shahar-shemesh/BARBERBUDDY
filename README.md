@@ -13,8 +13,9 @@ This app is a project developed as part of a computer science course on Android 
 
 
 
-https://github.com/shahar-shemesh/BARBERBUDDY/assets/62644579/41e72c0f-ef94-4c71-b883-6260703219db
-
+[![BARBERBUDDY] // Title
+(https://files.catbox.moe/gtrr7z.png)] // Thumbnail
+(https://youtu.be/lHvXgMa9-Mg "Now in Android: 55")    // Video Link
 
 
 ## Getting Started
