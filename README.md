@@ -13,7 +13,7 @@ This app is a project developed as part of a computer science course on Android 
 
 ## Demo
 
-https://github.com/shahar-shemesh/BARBERBUDDY/assets/62644579/8baa6e0b-a467-45a6-bb50-3ddedad04acf
+(https://files.catbox.moe/gtrr7z.png)(https://github.com/shahar-shemesh/BARBERBUDDY/assets/62644579/8baa6e0b-a467-45a6-bb50-3ddedad04acf)
 
 
 
