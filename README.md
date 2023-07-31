@@ -12,7 +12,7 @@ This app is a project developed as part of a computer science course on Android 
 - User can view the available time slots for appointments
 
 ## Demo
-![BARBERBUDDY ](https://github.com/shahar-shemesh/BARBERBUDDY/assets/62644579/da418a17-4875-4230-b26a-452cc6d52afe)
+![BARBERBUDDY](https://github.com/shahar-shemesh/BARBERBUDDY/assets/62644579/b7d30601-a174-494d-8a9e-af8f7a729b15)
 
 
 
