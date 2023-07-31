@@ -13,9 +13,8 @@ This app is a project developed as part of a computer science course on Android 
 
 
 
-[![BARBERBUDDY] // Title
-(https://files.catbox.moe/gtrr7z.png)] // Thumbnail
-(https://youtu.be/lHvXgMa9-Mg "Now in Android: 55")    // Video Link
+[![Watch the video](https://files.catbox.moe/gtrr7z.png)](https://youtu.be/lHvXgMa9-Mg)
+
 
 
 ## Getting Started
