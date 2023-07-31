@@ -44,6 +44,8 @@ git clone https://github.com/shahar-shemesh/BARBERBUDDY.git
 - Android Studio
 - Google Maps API
 - Java
+- Firebase
+  
 ## Authors
 
 - [@shahar-shemesh](https://www.github.com/shahar-shemesh)
